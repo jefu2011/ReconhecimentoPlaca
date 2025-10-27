@@ -1,0 +1,9 @@
+fastapi==0.100.0
+uvicorn[standard]==0.23.2
+torch==2.5.1+cu124 --index-url https://download.pytorch.org/whl/cu124
+torchvision==0.20.1+cu124 --index-url https://download.pytorch.org/whl/cu124
+torchaudio==2.5.1+cu124 --index-url https://download.pytorch.org/whl/cu124
+ultralytics==8.3.147
+opencv-python>=4.6.0
+numpy>=1.25.0
+Pillow>=10.0.0

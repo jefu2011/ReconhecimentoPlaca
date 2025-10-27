@@ -1,0 +1,38 @@
+# Ambientes virtuais
+yolov11-env/
+venv/
+.env/
+
+# Cache e temporários
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Modelos e pesos
+*.pt
+*.onnx
+*.zip
+
+# Dados e imagens
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.mp4
+*.avi
+*.mov
+dataset/
+Novo/
+800/
+runs/
+
+# Dados locais
+*.db
+*.sqlite*
+*.csv
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
