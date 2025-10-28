@@ -28,7 +28,7 @@ import cv2
 
 # URL da API
 url = "http://127.0.0.1:5000/detect"
-image_path = "placa.jpg"
+image_path = "1.png"
 
 # Abrir a imagem e enviar para a API
 with open(image_path, "rb") as f:

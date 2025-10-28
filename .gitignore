@@ -23,6 +23,7 @@ __pycache__/
 *.mp4
 *.avi
 *.mov
+menor/
 dataset/
 Novo/
 800/

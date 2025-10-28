@@ -13,7 +13,8 @@ def detect():
     img = np.frombuffer(file.read(), np.uint8)
     img = cv2.imdecode(img, cv2.IMREAD_COLOR)
 
-    results = model(img)
+    # results = model(img, imgsz=1280)
+    results = model(img, imgsz=1280, conf=0.6, iou=0.4)
     detections = []
 
     # Considera todas as detecções, independentemente da confiança
